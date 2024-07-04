@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['answer', 'firstname-section', 'lastname-section', 'name-chars', 'orientation-mark', 'sn-digits', 'student-num-section', 'top-page-num']
+
+roboflow:
+  workspace: owlmark
+  project: owlmark-detection
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/owlmark/owlmark-detection/dataset/5

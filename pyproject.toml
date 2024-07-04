@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "omr-model-inference"
+version = "0.1.0"
+description = ""
+authors = ["fperellaholfeld <fperellaholfeld@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ultralytics = "^8.2.48"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
