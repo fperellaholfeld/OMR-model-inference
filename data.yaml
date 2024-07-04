@@ -1,6 +1,6 @@
-train: ../train/images
-val: ../valid/images
-test: ../test/images
+train: ../yolov8_omr/train/images
+val: ../yolov8_omr/valid/images
+test: ../yolov8_omr/test/images
 
 nc: 8
 names: ['answer', 'firstname-section', 'lastname-section', 'name-chars', 'orientation-mark', 'sn-digits', 'student-num-section', 'top-page-num']
