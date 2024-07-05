@@ -10,6 +10,7 @@ package-mode = false
 python = "^3.8"
 ultralytics = "^8.2.48"
 ipykernel = "^6.29.5"
+opencv-python = "^4.10.0.84"
 
 
 [tool.poetry.group.dev.dependencies]
