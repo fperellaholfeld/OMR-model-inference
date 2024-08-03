@@ -1,6 +1,6 @@
-train: ../yolov8_omr/train/images
-val: ../yolov8_omr/valid/images
-test: ../yolov8_omr/test/images
+train: ../omr_with_custom/train/images
+val: ../omr_with_custom/valid/images
+test: ../omr_with_custom/test/images
 
 nc: 8
 names: ['answer', 'firstname-section', 'lastname-section', 'name-chars', 'orientation-mark', 'sn-digits', 'student-num-section', 'top-page-num']
@@ -8,6 +8,6 @@ names: ['answer', 'firstname-section', 'lastname-section', 'name-chars', 'orient
 roboflow:
   workspace: owlmark
   project: owlmark-detection
-  version: 5
+  version: 6
   license: CC BY 4.0
-  url: https://universe.roboflow.com/owlmark/owlmark-detection/dataset/5
+  url: https://universe.roboflow.com/owlmark/owlmark-detection/dataset/6
